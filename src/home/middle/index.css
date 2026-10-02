@@ -1,0 +1,160 @@
+.maddle-whole{
+    width: 100%;
+    min-width: 1200px;
+    position: absolute;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    height: 5000px;
+}
+.maddimg{
+    position: absolute;
+    width: 100%;
+    min-width: 1500px;
+    height: 1050px;
+    margin: 0 auto;
+    z-index: 2;
+    -webkit-mask-image: linear-gradient(to bottom, #000 75%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 75%, transparent 100%);
+}
+.madding-bar{
+    width: 540px;
+    height: 90px;
+    margin: 0 auto;
+    position: absolute;
+    left: 445px;
+    top: 800px;
+    transition: left 0.5s ease;
+    list-style: none;
+    z-index: 5;
+    overflow: hidden;
+}
+.image-container{
+   padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+/* 删掉原来错误的 .image-container li 样式！！ */
+.madding-barimg{
+    height: 66px;
+    display: block;
+    /* 删除 margin-right: -80px; 这行！！ */
+    transform: scale(1);
+    transition: 300ms;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto 66px;
+    border: 1px transparent solid;
+    border-radius: 15px;
+}
+/* 当前选中放大 */
+.madding-barimg.active{
+    transform: scale(1.2);
+}
+.w1{
+    position: relative;
+    width: 540px;
+    height: 90px;
+    /* 删除 float:left */
+    z-index: 3;
+    display: flex;
+    flex-wrap: nowrap;
+    transition: transform 0.5s ease;
+}
+.prev-btn{
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    z-index: 6;
+    top: 835px;
+    left: 380px;
+    background: url(https://games.wanmei.com/images/index2103/prev_btn.png) 0 0 no-repeat;
+    border-radius: 100%;
+    border:none;
+    cursor: pointer;
+}
+.next-btn{
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    z-index: 3;
+    top: 835px;
+    left: 1000px;
+    border-radius: 100%;
+    border:none;
+    background: url(https://games.wanmei.com/images/index2103/next_btn.png) 0 0 no-repeat;
+    cursor: pointer;
+}
+.line{
+    width: 553px;
+    height: 9px;
+    background: url(https://games.wanmei.com/images/index2205/product_line.png) no-repeat;
+    position: absolute;
+    top: 1000px;
+    z-index: 5;
+    left: 950px;
+    margin-left: -276px;
+}
+.image-text-container{
+    position: absolute;
+    top: 360px;
+    left: calc(1920px * 0.6);
+    z-index: 2;
+}
+.main-image-p{
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+.main-image-title{
+    font-size: 48px;
+    color: white;
+}
+.image-text-containerline{
+    width: 343px;
+    height: 16px;
+    margin: 10px 0;
+    background: url(https://games.wanmei.com/images/index2205/product_line.png) no-repeat;
+}
+.main-image-introduce{
+    display: block;
+    width: 500px;
+    font-size: 16px;
+    color: #fff;
+}
+.middle-bg-wrap{
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    
+}
+.belowimg{
+    width: 100%;
+    margin:0 auto;
+    object-fit: cover;
+    object-position: center;
+    padding-bottom: 200px;
+}
+.video-maskimg{
+    position: relative;
+    width: 1920px;
+    height: 554px;
+    top: 930px;
+    z-index: 3;
+}
+.image-text-container-a{
+ display: block;
+    width: 145px;
+    height: 45px;
+    background: url(https://games.wanmei.com/images/index2205/box1_gamg1/box1_game1_more_btn.png) no-repeat;
+    position: absolute;
+    top: 355px;
+    left: 0px;
+}
+ 

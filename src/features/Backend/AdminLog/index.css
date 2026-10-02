@@ -1,0 +1,14 @@
+.photo-table-container{
+  padding:16px;
+}
+.photo-table{
+  width:100%;
+  border-collapse: collapse;
+}
+.photo-table th,.photo-table td{
+  border:1px solid #eee;
+  padding:8px;
+}
+.photo-table th{
+  background:#f5f5f5;
+}

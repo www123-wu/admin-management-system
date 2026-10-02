@@ -1,0 +1,86 @@
+.popular-all {
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 2300px;
+}
+
+.pop-title {
+    margin: 10px 10px 100px 250px;
+}
+
+.pop-wrap {
+    width: calc(390px * 3 + 20px * 2);
+    /* 3个item + 2个gap(10*2) */
+    margin: 0 auto;
+    /* 整体居中 */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pop-wrap .pop-item {
+
+    width: 390px;
+    height: 423px;
+    background: url('../../../public/pop.png');
+    
+    margin-bottom: 50px;
+
+}
+
+.pop-item a {
+    overflow: hidden;
+    display: block;
+    /* a标签撑满父盒子 */
+}
+
+.pop-wrap .pop-item img {
+    width: 100%;
+    height: 289px;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.pop-item:hover .pop-img1 {
+    transform: scale(1.12);
+    /* 放大倍数 */
+}
+
+.pop-item-title {
+    width: 100%;
+}
+
+.pop-wrap .pop-item .pop-item-title img {
+    float: left;
+    width: 95px;
+    height: 95px;
+    margin: 20px 0 0 20px;
+}
+
+.pop-item-title-all {
+    width: 234px;
+    float: left;
+    margin-left: 32px;
+    margin-top: 30px;
+}
+
+.pop-wrap .pop-item .pop-item-title .pop-item-title-span {
+    font-size: 18px;
+    color: #f5f5f5;
+    margin-top: 28px;
+}
+
+.pop-wrap .pop-item .pop-item-title .pop-item-title-p {
+    width: 206px;
+    font-size: 14px;
+    color: #9e9e9e;
+    line-height: 18px;
+    margin-top: 10px;
+}
+.pop-sq{
+    width: 100%;
+    margin-top: 200px;
+    min-width: 1200px;
+}
+

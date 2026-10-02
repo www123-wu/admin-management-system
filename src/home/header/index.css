@@ -1,0 +1,271 @@
+.box_top {
+
+    width: 100%;
+    min-width: 1920px;
+    height: 100px;
+    /* background: url(https://games.wanmei.com/images/index2103/nav_bg.png);     */
+    box-sizing: border-box;
+    position: absolute;
+    left: -50px;
+}
+
+.box {
+    overflow: hidden;
+    width: 100%;
+    display: table;
+    position: absolute;
+    left: 10%;
+    transition: left 0.5s;
+}
+
+@media (max-width: 1000px) {
+    .box {
+        left: 30px;
+    }
+}
+
+.box_top_logo {
+    position: absolute;
+    left: 8.5%;
+    top: 38px;
+}
+
+
+.head-navigation {
+    padding-left: 500px;
+}
+
+@media (max-width: 1920px) {
+    .box {
+        left: 30px;
+    }
+}
+
+li {
+    display: inline-block;
+}
+
+.head-navigation a {
+    display: inline-block;
+    width: 128px;
+    height: 76px;
+    line-height: 76px;
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+    margin: 0 9px;
+}
+
+/* 转语言 */
+.box-check-li {
+    margin: 0;
+    color: #d1cece;
+}
+
+.box-ul li.box-check-li a {
+    width: 30px;
+    margin: 0;
+    color: #d1cece;
+}
+
+.box-ul li.box-check-li a.on {
+    color: #fff;
+}
+
+.box_list {
+
+    width: 1200px;
+    height: 540px;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 70px;
+    left: 16.5%;
+    z-index: 0;
+
+}
+
+
+
+.box_listgame {
+    width: 440px;
+    height: 345px;
+    position: relative;
+    left: 60px;
+    top: 50px;
+}
+
+.box_listgame_title {
+    width: 200px;
+    height: 24px;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 5px;
+    
+}
+
+.box_categoryName{
+    height: 24px;
+    border-left: 2px solid #b81d25;
+}
+.box_categoryName span{
+    position: relative;
+    top: -20px;
+    left: 10px;
+}
+.box_listgame_p {
+    position: absolute;
+    top: -20px;
+    padding-left: 10px;
+}
+
+/* 连接样式 */
+.box_listgame_p li {
+    position: relative;
+    /* top: -20px; */
+    right: 70px;
+    letter-spacing: 0px;
+    /* padding: 0 120px 10px 10px; */
+    float: left;
+    width: 50%;
+    /* margin-top: 100px; */
+    white-space: nowrap;
+
+}
+
+.box_listgame_p li a {
+    letter-spacing: 0px;
+    display: block;
+    height: 34px;
+    font-size: 16px;
+    color: #c7c7c7;
+    text-align: left;
+}
+
+.box_listgame_p li a:hover {
+    color: #e12e2e;
+}
+
+/* 手机游戏样式 */
+.box_listgame_pp {
+    position: absolute;
+    top: -20px;
+    left: 300px;
+    
+    padding-left: 100px;
+    width: 500px;
+}
+
+.box_listgame_pp li {
+     position: relative;
+    top: -10px;
+    right: 70px;
+    letter-spacing: 0px;
+    padding: 0 120px 10px 10px;
+    float: left;
+    width: 50%;
+    margin-top: -8px;
+    white-space: nowrap;
+    
+
+}
+
+.box_listgame_pp li a {
+    letter-spacing: 0px;
+    display: block;
+    height: 34px;
+    font-size: 16px;
+    color: #c7c7c7;
+    text-align: left;
+}
+
+.box_listgame_pp li a:hover {
+    color: #e12e2e;
+}
+
+.box_listgame_ppp {
+    position: absolute;
+    top: -20px;
+    left: 850px;
+    padding-left: 10px;
+    width: 300px;
+}
+
+.box_listgame_ppp li {
+    position: relative;
+    top: -10px;
+    right: 70px;
+    letter-spacing: 0px;
+    padding: 0 120px 10px 10px;
+    float: left;
+    width: 50%;
+    margin-top: -8px;
+    white-space: nowrap;
+}
+
+.box_listgame_ppp li a {
+    letter-spacing: 0px;
+    display: block;
+    height: 34px;
+    font-size: 16px;
+    color: #c7c7c7;
+    text-align: left;
+}
+
+.box_listgame_ppp li a:hover {
+    color: #e12e2e;
+}
+.GameMenu2{
+    position: relative;
+    right: 100px;
+}
+.box_list.GameMenu2 {
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  margin-left: 20% !important;
+  width: 1200px !important;
+  height: auto !important;
+  display: block !important;
+  background: transparent !important;
+}
+.box_list.GameMenu2 .box_listgame_p li{
+    position: relative;
+    top: 30px;
+    right: 20px;
+    letter-spacing: 0px;
+    float: left;
+    width: 50%;
+    white-space: nowrap;
+}
+.box_list.GameMenu2 .box_listgame_pp li{
+    position: relative;
+    top: 30px;
+    right: 30px;
+    letter-spacing: 0px;
+    float: left;
+    width: 50%;
+    white-space: nowrap;
+}
+.box_list.GameMenu2 .box_listgame_ppp li{
+    position: relative;
+    top: 30px;
+    right: 70px;
+    margin-left: 50px;
+    letter-spacing: 0px;
+    float: left;
+    width: 300px;
+    white-space: nowrap;
+}
+.box_list.GameMenu2 .box_categoryName{
+     width: 200px;
+    height: 24px;
+    font-size: 18px;
+    float: left;
+    color: #fff;
+    letter-spacing: 5px;
+    margin-top: -10px;
+}
+.box_list.GameMenu2 .box_categoryName span{
+    position: relative;
+    top: -5px;
+}

@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+:where(.css-dev-only-do-not-override-1uweeqc).ant-layout-header {
+    width: 1920px;
+    height: 90px;
+    background: url(https://games.wanmei.com/images/index2103/nav_bg.png) center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+    z-index: 50;
+    
+}
+:where(.css-dev-only-do-not-override-1mbin4f).ant-layout-header {
+    height: 64px;
+    padding: 0 50px;
+    color: rgba(0, 0, 0, 0.88);
+    line-height: 64px;
+    background: none;
+}
+
+.content_img{
+    margin: 0,auto;
+}
+:where(.css-dev-only-do-not-override-1mbin4f).ant-layout {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    min-height: 0;
+    background:  none;
+}

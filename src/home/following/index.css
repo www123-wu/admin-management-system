@@ -1,0 +1,82 @@
+:where(.css-dev-only-do-not-override-1mbin4f).ant-layout-footer{
+    padding:  0;
+    margin: 0;
+}
+.Following{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    height: 4000px;
+    /* background: url(../../../public/bg34.jpg); */
+    padding-bottom: 200px;
+    top: 960px;
+    overflow: hidden;
+    
+}
+.belowimg{
+    width: 100%;
+    margin:0 auto;
+    object-fit: cover;
+    object-position: center;
+    padding-bottom: 200px;
+    height: 100%;
+}
+.Followingimg{
+    width: 100%;
+    overflow: hidden;
+}
+.newfollowing{
+    width: 100%;
+    height: 554px;
+    margin-top: 104px;
+    position: absolute;
+    
+}
+.newfollowing-img{
+    margin-left: 250px;
+}
+.newCarousel{
+    position: relative;
+    left: 250px;
+    width: 468px;
+    height: 443px;
+    margin-top: 50px;
+    margin-right: 24px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.leftnewCarousel{
+   background-image: url("../../../public/tab_bg.png");
+    width: 405px;
+    height: 88px;
+    margin-top: 20px;
+    
+}
+.leftnewCarousel-item-selected{
+    background-image: url('../../../public/tab_bg_on.png'); /* 替换为实际选中时要显示的背景图片路径 */
+    width: 446px;
+    
+}
+
+.leftnewCarouselimg{
+    width: 72px;
+    margin: 9px 28px 0 25px;
+}
+.leftnewCarouselp{
+    float: right;
+    position: relative;
+    left: -60px;
+    top: 10px;
+    color: white;
+    font-size: 20px;
+}
+.rightnewCarousel{
+    position: absolute;
+    width: 770px;
+    height: 450px;
+    top: 110px;
+    left: 680px;
+    z-index: 1;
+}
